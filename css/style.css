@@ -162,6 +162,10 @@ img {
   fill: var(--accent-color);
 }
 .phone-mail {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--font-color);
@@ -448,8 +452,11 @@ img {
 .pitem-link {
   cursor: pointer;
 }
-.picture-item:hover,
-.picture-item:focus {
+/* .pitem-link:focus {
+  background-color: red;
+} */
+.picture-item:focus,
+.picture-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
